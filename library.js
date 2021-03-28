@@ -317,7 +317,7 @@
 				winston.error('[sso-facebook] Could not remove OAuthId data for uid ' + uid + '. Error: ' + err);
 				return callback(err);
 			}
-			callback(null, uid);
+			callback(null, data);
 		});
 	};
 
